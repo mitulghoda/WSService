@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WSModule</string>
+    <string name="something_went_wrong">هناك خطأ ما.</string>
+    <string name="internal_server_error">هناك خطأ ما.</string>
+    <string name="unauthorized">غير مصرح</string>
+
+</resources>

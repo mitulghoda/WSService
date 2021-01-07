@@ -1,0 +1,3 @@
+include ':WSModule'
+include ':app'
+rootProject.name = "WSservice"

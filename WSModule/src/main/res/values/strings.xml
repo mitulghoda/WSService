@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WSModule</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="internal_server_error">Something went wrong</string>
+    <string name="unauthorized">Unauthorized</string>
+
+</resources>
