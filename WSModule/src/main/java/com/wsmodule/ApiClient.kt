@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit
 object ApiClient {
 
     private var retrofit: Retrofit? = null
-    private var baseUrl: String? = null
 
     fun client(str: String): Retrofit {
         val httpClient = if (BuildConfig.DEBUG) {
