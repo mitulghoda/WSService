@@ -1,6 +1,12 @@
 
 Step->1
-
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
 dependencies {
     implementation 'com.github.mitulghoda:WSService:release_version'
 }
