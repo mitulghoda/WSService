@@ -1,11 +1,6 @@
 apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
-
-apply plugin: 'kotlin-android-extensions'
-
-static def getLiveWebServiceURL() { return "\"http://172.105.35.50:4200/api/\"" }
-
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -15,7 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        buildConfigField "String", "WebServiceUrl", getLiveWebServiceURL()
     }
     buildTypes {
         release {
